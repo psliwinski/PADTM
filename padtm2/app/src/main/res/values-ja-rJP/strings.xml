@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">padtm2</string>
+    <string name="moj_tekst3">さようなら</string>
+    <string name="moj_tekst2">おはよう</string>
+    <string name="moj_tekst6">こんにちは</string>
+    <string name="moj_tekst5">してください</string>
+    <string name="moj_tekst4">ありがとうございました</string>
+    <string name="moj_tekst">こんにちは世界!</string>
+</resources>

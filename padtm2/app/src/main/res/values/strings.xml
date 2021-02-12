@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">padtm2</string>
+    <string name="moj_tekst">Witaj świecie!</string>
+    <string name="moj_tekst2">Dzień dobry</string>
+    <string name="moj_tekst3">Do widzenia</string>
+    <string name="moj_tekst4">Dziękuję</string>
+    <string name="moj_tekst5">Proszę</string>
+    <string name="moj_tekst6">Cześć</string>
+
+</resources>

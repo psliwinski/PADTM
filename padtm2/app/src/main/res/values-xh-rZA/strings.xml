@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">padtm2</string>
+    <string name="moj_tekst">Molo wehlabathi!</string>
+    <string name="moj_tekst2">Molo</string>
+    <string name="moj_tekst4">Ndiyabulela kuwe</string>
+    <string name="moj_tekst5">Sicela</string>
+    <string name="moj_tekst6">Hi</string>
+    <string name="moj_tekst3">Molo wam</string>
+</resources>

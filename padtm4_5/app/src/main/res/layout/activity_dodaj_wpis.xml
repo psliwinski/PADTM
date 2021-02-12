@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DodajWpis">
+
+    <TextView
+        android:id="@+id/tekst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gatunek:"
+        android:textSize="20dp"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        ></TextView>
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/gatunek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/kolor"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="-15dp"
+
+        android:ems="10"
+        android:hint="Gatunek"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/kolor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/gatunek"
+        android:layout_marginBottom="-50dp"
+        android:ems="10"
+        android:hint="Kolor"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/wielkosc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/kolor"
+        android:layout_marginBottom="-50dp"
+        android:ems="10"
+        android:hint="Wielkość"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/opis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/wielkosc"
+        android:layout_marginBottom="-100dp"
+        android:ems="10"
+        android:hint="Opis"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/opis"
+        android:layout_alignBottom="@id/opis"
+        android:layout_marginEnd="-100dp"
+        android:onClick="wyslij"
+        android:text="Wyślij" />
+</RelativeLayout>
